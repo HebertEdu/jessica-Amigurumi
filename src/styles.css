@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  width: 940px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: rgb(236, 221, 224);
+}
+
+.header_menu {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_container {
+  background-color: transparent;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 10rem;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.menu_container {
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+}
+
+.li {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(23, 64, 70);
+  font-weight: bold;
+}
+
+.principal_container {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("./img/ARTES\ EM\ CROCHE.png");
+  height: 100vh;
+}
+
+span {
+  color: black;
+}
+
+.titulo {
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.paragrafo {
+  font-size: 1.5rem;
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.UmPoucoDaMinhaArte {
+  font-size: 1.5rem;
+  padding: 0 0 1.5rem 2rem;
+  font-weight: 600;
+}
+
+.juju_name {
+  padding: 0rem 2rem;
+  font-weight: 600;
+}
+
+.juju_img {
+  width: 20rem;
+  padding: 0rem 2rem;
+}
+.juju_paragrafo {
+}
